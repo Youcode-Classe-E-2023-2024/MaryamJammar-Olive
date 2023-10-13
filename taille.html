@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivara</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body class="taille">
+
+    <nav class="navbar">
+        <a href="index.html">
+            <img class="logo" src="images/logo.png" alt="logo">
+        </a>
+        
+        <div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a style="color: #886f2b;" href="">Taille</a></li>
+                <li><a href="olives.html">Olives</a></li>
+                <li><a href="tourisme.html">Tourisme</a></li>
+                <li><a href="livres.html">Livres</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <section >
+        <div class="img-tree"> <img src="images/tree.jpg" alt="tree"></div>
+        <div class="taille-color">
+            <div class="tailles">
+                <h3>ENTRETIEN OLIVIER | TAILLE DE L'OLIVIER</h3>
+            <h2>LA TAILLE DE L'OLIVIER</h2>
+            <div class="flexhh">
+                <p>Les anciens aimaient les grands arbres car ils pensaient que plus l'arbre était important, plus grande serait la quantité de fruits menée au moulin. Ils laissaient donc l'olivier grandir dans toutes les directions. Ils avaient quand même remarqués que la fructification se faisait principalement sur les parties retombantes des rameaux (penduliers).
+                    
+                    La taille de l'olivier est une opération importante, voire essentielle dans la culture de l'olivier. La taille a pour but de former, de favoriser la fructification ou de permettre la reprise d'un olivier laissé à l'abandon.
+                    
+                    Comment tailler un olivier ? : Les différentes tailles de l'olivier selon sa destination.
+                    
+                    <div class="show-paragraph" id="hidden-paragraph">
+                                        
+                    La Picholine
+                    Picholine du Gard
+
+                    C'est la variété la plus répandue en France, on la trouve dans tout le sud. On la récolte en vert aussi bien en olive de table que pour en faire de l'huile. Résistance au froid moyen. Rendement huile moyen.
+
+                    <br>La Lucques
+                    La Lucques
+
+                    <br>Elle est originaire de France et se cultive dans l'Hérault. Elle est récoltée en vert et surtout utilisée pour la conserve.
+
+                    <br>La Grossanne
+                    La Grossanne
+
+                    Elle est localisée dans la vallée des Baux-de-Provence, elle est rustique et résiste au froid. Elle bénéficie de l'A.O.C.
+
+                    <br>La Tanche
+                    Elle est très recherchée, elle est très généreuse en huile et utilisée en confiserie. Elle a bénéficié de la première A.O.C. en 1995. On la trouve surtout dans le sud de la Drôme (26) dans les vallées de l'Ouvèze autour de Buis-les-Baronnies et de l'Eygues autour de Nyons, ainsi que dans quelques oliveraies dans le Nord du Vaucluse (Olive noire de Nyons).
+                    </div>
+                    
+                </p>
+                </div> 
+                <button id="show-button" class="learn-button-t">Learn more</button>       
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div>
+            <p>&copy; Olivara.com </p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById("show-button").addEventListener("click", function () {
+        var hiddenParagraph = document.getElementById("hidden-paragraph");
+        hiddenParagraph.style.display = "block"; 
+        this.style.display = "none"; 
+    });
+
+    </script>
+</body>
+</html>

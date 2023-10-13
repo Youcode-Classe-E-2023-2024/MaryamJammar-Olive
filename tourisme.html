@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivara</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body class="olive">
+
+    <nav class="navbar">
+        <a href="index.html">
+            <img class="logo" src="images/logo.png" alt="logo">
+        </a>
+        
+        <div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="taille.html">Taille</a></li>
+                <li><a href="olives.html">Olives</a></li>
+                <li><a style="color: #886f2b;" href="">Tourisme</a></li>
+                <li><a href="livres.html">Livres</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section >
+        <div class="olive-color">
+
+            <div class="olives">
+                <h3>TOURISME</h3>
+            <h2>LA CULTURE DE L'OLIVIER AU MAROC</h1>
+                <div class="flexhh">
+                <p>Principale espèce fruitière cultivée au Maroc, L'Olivier occupe une surface de 560.000 ha dont
+                    220.000 ha en zone irriguée (Haouz, Tadla, Souss-Massa, Moulouya, Nador, Boulemane, Oujda, 
+                    El Kelaà, Marrakech, Chichaoua, Bénimellal Ouarzazate, Tafilalet. Figuig, Essaouira), 200.000 ha en zone de montagne 
+                    (Chefchaouen, Taounate, Taza, Tanger, Tétouan, Azilal, Khenifra, Al Hoceima), 100.000 ha en zone bour favorable
+                    (Sefrou, El Hajeb, Fès, Meknès, Sidi Kacem, Gharb, Loukkos, Benslimane) et 40.000 ha dispersés entre Safi, 
+                    Settat, Khémisset et Khouribga. 
+                    L'Olivier contribue à l'emploi en milieu rural avec 11 millions de journées de travail annuellement. 
+                    La production d'olive se situe autour de 560.000 T et permet de générer 50.000 T d'huiles d'olives et 90.000 T d'olives de table industrielles.
+                    Exigences agro-écologiques
+                    Les températures, la pluviométrie, le vent et la lumière.
+                    <div class="show-paragraph" id="hidden-paragraph">
+                                        
+                    La Picholine
+                    Picholine du Gard
+
+                    C'est la variété la plus répandue en France, on la trouve dans tout le sud. On la récolte en vert aussi bien en olive de table que pour en faire de l'huile. Résistance au froid moyen. Rendement huile moyen.
+
+                    <br>La Lucques
+                    La Lucques
+
+                    <br>Elle est originaire de France et se cultive dans l'Hérault. Elle est récoltée en vert et surtout utilisée pour la conserve.
+
+                    <br>La Grossanne
+                    La Grossanne
+
+                    Elle est localisée dans la vallée des Baux-de-Provence, elle est rustique et résiste au froid. Elle bénéficie de l'A.O.C.
+
+                    <br>La Tanche
+                    Elle est très recherchée, elle est très généreuse en huile et utilisée en confiserie. Elle a bénéficié de la première A.O.C. en 1995. On la trouve surtout dans le sud de la Drôme (26) dans les vallées de l'Ouvèze autour de Buis-les-Baronnies et de l'Eygues autour de Nyons, ainsi que dans quelques oliveraies dans le Nord du Vaucluse (Olive noire de Nyons).
+                    </div>
+                    
+                </p>
+                </div> 
+                <button id="show-button" class="learn-button">Learn more</button>  
+            </div>     
+        </div>
+    </section>
+    <footer class="footer">
+        <div>
+            <p>&copy; Olivara.com </p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById("show-button").addEventListener("click", function () {
+        var hiddenParagraph = document.getElementById("hidden-paragraph");
+        hiddenParagraph.style.display = "block"; 
+        this.style.display = "none"; 
+    });
+
+    </script>
+</body>
+</html>
